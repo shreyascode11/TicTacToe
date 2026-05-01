@@ -2,11 +2,14 @@ import java.util.Scanner;
 
 public class UC6 {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         int row=sc.nextInt();
         int col=sc.nextInt();
         char symbol=sc.next().charAt(0);
+
         placeMove(row,col,symbol);
+
     }
     public static void placeMove(int row,int col,char symbol){
 
